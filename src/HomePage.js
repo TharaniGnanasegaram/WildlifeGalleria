@@ -13,7 +13,7 @@ function HomePage() {
 
     const navigate = useNavigate();
 
-    const navservicepro = async (e) => {
+    const navpro = async (e) => {
         e.preventDefault();
         navigate(`/wildanimals`);
     }
@@ -39,7 +39,7 @@ function HomePage() {
                 <div class="buttonDiv">
 
                     <div class="container">
-                        <button onClick={navservicepro} class="buttonstyle">Visit Gallery</button> 
+                        <button onClick={navpro} class="buttonstyle">Visit Gallery</button> 
                     </div>
 
                 </div>

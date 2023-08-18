@@ -1,5 +1,4 @@
 import React from 'react'
-import { useLocation, useNavigate } from 'react-router-dom';
 
 /* 
     Created by Alex Lopez
@@ -8,18 +7,6 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 
 function Wildplants() {
-
-    const navigate = useNavigate();
-
-    const navcustomer = async (e) => {
-        e.preventDefault();
-        navigate(`/customerlogin`);
-    }
-
-    const navservicepro = async (e) => {
-        e.preventDefault();
-        navigate(`/serviceproviderlogin`);
-    }
 
 
     return (

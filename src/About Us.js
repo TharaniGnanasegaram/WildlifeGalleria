@@ -1,21 +1,11 @@
+/*
+    Created by Tharani Gnanasegaram on 16/08/2023
+*/
+
 import React from 'react'
-import { useLocation, useNavigate } from 'react-router-dom';
 
 
 function AboutUs() {
-
-    const navigate = useNavigate();
-
-    const navcustomer = async (e) => {
-        e.preventDefault();
-        navigate(`/customerlogin`);
-    }
-
-    const navservicepro = async (e) => {
-        e.preventDefault();
-        navigate(`/serviceproviderlogin`);
-    }
-
 
     return (
 
