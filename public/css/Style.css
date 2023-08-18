@@ -1,0 +1,254 @@
+body{
+    background-color: #deeef3;
+}
+
+.titleHeadingStyle  {
+    color: #e6f6ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#contentshome  {
+    padding-top: 5px;
+    clear: both
+}
+
+#logoimg{
+    margin: auto;
+    max-width: 15%;
+}
+
+.nav {
+    padding: 0px 0px 5px 0px;
+    float: right;
+    width: 40%;
+}
+
+.nav_ul {
+    /* display: grid;
+    grid-template-columns: 0.75fr 1.5fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    padding-right: 10px;
+}
+
+.nav_ul_link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans - serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #74800c;
+    padding: 2px;
+}
+
+.nav_ul_link:hover{
+    color: #0c3580;
+    text-shadow: 0px 0px 2px #2578c5;
+}
+
+#headdescription{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 25px 0px 35px 0px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#descripHead{
+  font-family: Georgia, 'Times New Roman', Times, serif, Brush Script MT, Brush Script Std, cursive;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 50;
+  color: rgb(10, 29, 90);
+}
+
+.buttonDivOut {
+    margin-top: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .homeimg{
+    max-width: 100%;
+}
+
+.aboutimg{
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+.photographers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.photographer{
+    max-width: 70%;
+    margin: auto;
+}
+
+.names{
+    font-size: 20px;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttonstyle {
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans - serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    background-color: #6b720b;
+    color: rgb(240, 238, 230);
+    padding: 15px;
+    text-transform: uppercase;
+    border-color: #6b720b;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttonstyle:hover{
+    background-color: #9ba510;
+    border-color: #9ba510;
+}
+
+footer{
+    background-color: #03102e;
+    color: #fae7e5;
+    height: 60pt;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 80px;
+}
+
+.innDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin: 5px 15px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.portAni{
+    max-width: 100%;
+}
+
+.landdiv{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.landAni{
+    max-width: 100%;
+}
+
+.landdivplants{
+    margin: 35px 10px 5px 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.teamdiv{
+    font-size: 35px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: darkblue;
+}
+
+@media only all and (max-width:1024px) {
+
+
+    .nav {
+        padding: 0px 0px 5px 0px;
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .nav_ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        margin: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+}
+
+@media only all and (max-width:760px) {
+
+    .nav {
+        padding: 0px 0px 5px 0px;
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .nav_ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        margin: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .nav_ul li{
+        display: block;
+        padding-top: 12px;
+    }
+
+    .buttonDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
