@@ -155,6 +155,12 @@ footer{
     margin-top: 80px;
 }
 
+.containerWildanimal {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .innDiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -165,9 +171,22 @@ footer{
     align-content: center;
 }
 
+.portAniWildanimal, .landAniWildanimal {
+    max-width: 100%;
+}
 
 .portAni{
     max-width: 100%;
+}
+
+.innDivWildanimal, .landdivWildanimal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
 }
 
 .landdiv{
